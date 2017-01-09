@@ -3,6 +3,12 @@
 
 区块链高级技术专家群内部技术分享活动。
 
+群内由区块链方向团队或组织的技术专家、学者和负责人等组成，目前仅限邀请加入。
+
+分享内容会首发在 `TechFirst` 微信公众号，欢迎关注。
+
+
+
 在线阅读：[GitBook](https://www.gitbook.com/book/yeasy/blockchain_talks) 或 [GitHub](https://github.com/yeasy/blockchain_talks/blob/master/SUMMARY.md)。
 
 * pdf 版本 [下载](https://www.gitbook.com/download/pdf/book/yeasy/blockchain_talks)
