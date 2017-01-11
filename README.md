@@ -1,13 +1,12 @@
-# 区块链技术分享集
-0.1.0
+# 区块链技术讲座集
+
+0.1.1
 
 区块链高级技术专家群内部技术分享活动。
 
 群内由区块链方向团队或组织的技术专家、学者和负责人等组成，目前仅限邀请加入。
 
 分享内容会首发在 `TechFirst` 微信公众号，欢迎关注。
-
-
 
 在线阅读：[GitBook](https://www.gitbook.com/book/yeasy/blockchain_talks) 或 [GitHub](https://github.com/yeasy/blockchain_talks/blob/master/SUMMARY.md)。
 
@@ -24,11 +23,11 @@
 ## 版本历史
 
 * 0.1.0: 2017-01-09
-    * 添加项目结构。
-
+  * 添加项目结构。
 
 ## 鼓励项目
 
-如果你觉得分享内容有趣，欢迎通过文末二维码对演讲嘉宾进行鼓励，或者支持项目一杯 coffee~
+如果你觉得分享内容有趣，欢迎通过讲座后二维码对演讲嘉宾进行鼓励，或者支持项目一杯 coffee~
 
 ![coffee](_images/donate.jpeg)
+
