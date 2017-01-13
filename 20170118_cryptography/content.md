@@ -1,9 +1,4 @@
-# 加密实践与商业创新
-
-刘智,  cowliucd@gmail.com
-2017/01
-
-标签（空格分隔）：加密 隐私 区块链 安全
+## 讲座内容
 
 # Part 1. Opening
 ## 1. 开始
@@ -274,25 +269,20 @@ zcash源于一个“有趣问题”即提供区块链交易匿名保护，这是
 [互联网时代加密的应用与悖论][18]
 [揭秘潘多拉魔盒-加密原理与实践][19]
 
-下面请大家提问，今天无法回复的问题我记录下来，后面反馈给大家。 Thank for your time.
-
-个人公众号
-![qrcode_for_gh_121c5f653ab1_344.jpg-8.1kB][20]
-
 ---
 
 
-  [1]: http://static.zybuluo.com/icefrogcn/b44l9t2gg5cm548w3vgi0drg/03.png
-  [2]: http://static.zybuluo.com/icefrogcn/gjnudg3f6b4re9jndna17sh8/04.png
-  [3]: http://static.zybuluo.com/icefrogcn/kfsv85x7v1s8y50ivyp9xweg/6.png
-  [4]: http://static.zybuluo.com/icefrogcn/ejznszndt9cfhz0hm83yobx5/07.png
+  [1]: _images/p3.png
+  [2]: _images/p4.png
+  [3]: _images/p6.png
+  [4]: _images/p7.png
   [5]: http://www.btc38.com/news/2017/1/12978.html
-  [6]: http://static.zybuluo.com/icefrogcn/oerns9tp77aqp4fqlpa4n9k7/10.png
-  [7]: http://static.zybuluo.com/icefrogcn/19u7r6irsn6q7s73b9ignwou/12.png
-  [8]: http://static.zybuluo.com/icefrogcn/63fqlc85av03259hj4ir4vx2/hash.jpg
-  [9]: http://static.zybuluo.com/icefrogcn/flkrr3jsmgwb1oyct36osrou/diffie-hellman.png
-  [10]: http://static.zybuluo.com/icefrogcn/0k5h0ra1425qv8a41fuxwkkh/%E5%88%9B%E6%96%B0%E6%AF%94%E8%BE%83.png
-  [11]: http://static.zybuluo.com/icefrogcn/ey6zkzeuvdi59gc99w18ejya/dickson.png
+  [6]: _images/p10.png
+  [7]: _images/p12.png
+  [8]: _images/p14.jpg
+  [9]: _images/p15.png
+  [10]: _images/p21.png
+  [11]: _images/p22.png
   [12]: https://book.douban.com/subject/5375620/
   [13]: https://book.douban.com/series/5314
   [14]: http://www.oscca.gov.cn/News/201204/News_1228.htm
@@ -301,4 +291,3 @@ zcash源于一个“有趣问题”即提供区块链交易匿名保护，这是
   [17]: https://gist.github.com/byronhe/232d22f1d3dcaa0a20cb
   [18]: http://mp.weixin.qq.com/s/Rex_ZNbe3xrfo-pNLAwhJg
   [19]: http://mp.weixin.qq.com/s/_w0JjArenB7jYdnDOrQGWw
-  [20]: http://static.zybuluo.com/icefrogcn/2kanqfyc5znleo0852ptlvls/qrcode_for_gh_121c5f653ab1_344.jpg
