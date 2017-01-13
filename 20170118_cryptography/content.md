@@ -32,7 +32,7 @@
 ![03.png-116.5kB][1]
 加密要解决的核心问题是**数据安全和隐私保护**。“the armor in digital age”是非常贴切的比喻。
 
-<i class="icon-pencil"></i> 有多少人了**解Safe Harbor(安全港)**和**HIPAA**？
+<i class="icon-pencil"></i> 有多少人了解 **Safe Harbor(安全港)** 和 **HIPAA**？
 
 中国《网络安全法》即将立法，对公民隐私的保护已提上日程。
 
@@ -47,7 +47,7 @@
 最近几年，加密遭遇到了前所未有的挑战(和机会)，**它是技术、商业和社会的交叉点**。区块链也是这三者的结合。要在一个垂直领域做出原创创新比较难，而跨界创新更有可能，如史蒂夫 乔布斯所言：
 > It is in Apple's DNA that technology alone is not enough, it's technology married with liberal arts, married with the humanities.”
 
-大部分国际IT巨头对加密持积极意见，如Google,Apple等公司都在大力提倡https。Google将使用https的网站优先展示；2017年1月起，**AppStore强制要求所有app使用https**。加密同时也产生了负面影响，如恐怖分子采用加密技术通讯。
+大部分国际 IT 巨头对加密持积极意见，如 Google，Apple 等公司都在大力提倡 https。Google 将使用 https 的网站优先展示；2017 年 1 月起，**AppStore 强制要求所有 app 使用 https**。加密同时也产生了负面影响，如恐怖分子采用加密技术通讯。
 
 ## 6. 加密的现实意义(2)
 ![07.png-259.9kB][4]
@@ -62,7 +62,7 @@
 
 ## 7. 加密算法的问题
 
-David Brumley是卡耐基梅隆大学教授，网络安全顶级专家，美国国防部安全顾问。他对人工智能在安全的发展趋势有非常深刻的洞见，见我的个人公众号分享。下面是他关于加密的看法：
+David Brumley 是卡耐基梅隆大学教授，网络安全顶级专家，美国国防部安全顾问。他对人工智能在安全的发展趋势有非常深刻的洞见，见我的个人公众号分享。下面是他关于加密的看法：
 
 > In crypto, I think the biggest weakness right now is not the algorithms, but the implementation. That gets far too little attention. Most people don't even know what authenticated encryption is, and end up implementing something poorly themselves.
 
@@ -275,7 +275,7 @@ zcash源于一个“有趣问题”即提供区块链交易匿名保护，这是
   [1]: _images/p3.png
   [2]: _images/p4.png
   [3]: _images/p6.png
-  [4]: _images/p7.png
+  [4]: _images/p9.png
   [5]: http://www.btc38.com/news/2017/1/12978.html
   [6]: _images/p10.png
   [7]: _images/p12.png
