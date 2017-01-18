@@ -2,7 +2,7 @@
 
 **问：有没有一些开源工具可以推荐的?**
 
-答：指加密算法吗？ 常见的有Openssl, NaCL，PolarSSL。
+答：指加密算法吗？ 常见的有Openssl，NaCL，PolarSSL。
 
 **问：很关心 SM 有没有公认的实现?**
 
