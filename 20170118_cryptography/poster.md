@@ -1,3 +1,22 @@
+# 加密技术与商业创新
+
+区块链高级技术专家群内部讲座系列活动。
+
+群内由区块链相关团队或组织的技术专家、学者和负责人等组成，目前仅限邀请加入。
+
+分享内容会在 `TechFirst` 微信公众号进行首发，欢迎关注。
+
+## 嘉宾介绍
+
+![Zhi Liu](_images/lz.jpg)
+
+刘智，a security  and crypto zealot。电子科技大学信息安全博士、纽约州立大学石溪分校安全研究员。多年安全系统研发经验，精通安全攻防和加密技术。
+专注安全和加密技术及商业创新，擅长构建安全产品、设计安全架构。
+
+他的 Email 是 [cowliucd@gmail.com](cowliucd@gmail.com)，他的个人微信公众号为
+
+![wechat](_images/lz_wechat.jpg)
+
 ## 讲座内容
 
 ## Part 1. Opening
@@ -301,3 +320,19 @@ zcash 源于一个“有趣问题”即提供区块链交易匿名保护，这�
   [17]: https://gist.github.com/byronhe/232d22f1d3dcaa0a20cb
   [18]: http://mp.weixin.qq.com/s/Rex_ZNbe3xrfo-pNLAwhJg
   [19]: http://mp.weixin.qq.com/s/_w0JjArenB7jYdnDOrQGWw
+
+## 鼓励支持
+如果你喜欢讲座分享的内容，欢迎通过如下微信二维码对专家进行支持和鼓励。
+
+![10](_images/10.png)
+![20](_images/20.png)
+![50](_images/50.png)
+![100](_images/100.png)
+
+===== 关于 TechFirst 公众号 =====
+
+专注云计算、大数据、Fintech、人工智能、分布式相关领域的热门技术与前瞻方向。
+
+发送关键词（如云计算、大数据、容器、区块链），获取热门点评与技术干货。
+
+欢迎投稿！
