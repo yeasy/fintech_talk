@@ -1,11 +1,11 @@
-## Fabric1.0 Chaincode Intro
+## 讲座内容
 
 ### Page 1
 ![slide1](_images/p1.JPG)
 
-Hello，大家好。非常荣幸能被保华大大邀请来到这里跟大家分享我个人对Hyperledger Fabric1.0之上Chaincode开发的一些理解。
+Hello，大家好。非常荣幸能被保华大大邀请来到这里跟大家分享我个人对Hyperledger Fabric 1.0 之上 Chaincode 开发的一些理解。
 
-简单自我介绍一下，我叫李超，是IBM软件开发部门的一名研发工程师。之所以接触Blockchain技术，一开始完全是由于部门boss的推动，做了一些学习和demo的工作。之后，看到这项技术的火爆，尤其是Hyperledger开源项目的极速发展，个人也就一直在坚持跟踪学习这项技术的最新进展。
+简单自我介绍一下，我叫李超，是 IBM 软件开发部门的一名研发工程师。之所以接触 Blockchain 技术，一开始完全是由于部门boss的推动，做了一些学习和demo的工作。之后，看到这项技术的火爆，尤其是Hyperledger开源项目的极速发展，个人也就一直在坚持跟踪学习这项技术的最新进展。
 这里有我的微信二维码，非常欢迎添加好友多多交流。
 
 好了，进入正题。我今天分享的内容的题目是Fabric1.0 Chaincode介绍。除了介绍Chaincode程序编写、调试的基本方法之外，我还加入了一些有关Chaincode原理的内容，希望能够帮助大家更好地理解Chaincode，进而编写出更加高效的Chaincode程序以及更加快速地调试自己的Chaincode程序。
