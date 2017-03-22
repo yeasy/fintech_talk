@@ -11,3 +11,8 @@
     * [讲座内容](20170118_cryptography/content.md)
     * [答疑解惑](20170118_cryptography/qa.md)
     * [支持鼓励](20170118_cryptography/donate.md)
+* [Hyperledger Fabric Chaincode 开发](20170322_chaincode/README.md)
+    * [嘉宾介绍](20170322_chaincode/speaker.md)
+    * [讲座内容](20170322_chaincode/content.md)
+    * [答疑解惑](20170322_chaincode/qa.md)
+    * [支持鼓励](20170322_chaincode/donate.md)
