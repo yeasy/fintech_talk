@@ -1,7 +1,7 @@
 ## 讲座内容
 
 ### Page 1
-![slide1](_images/p1.JPG)
+![slide1](_images/p1.jpg)
 
 Hello，大家好。非常荣幸能被保华大大邀请来到这里跟大家分享我个人对Hyperledger Fabric 1.0 之上 Chaincode 开发的一些理解。
 
@@ -11,12 +11,12 @@ Hello，大家好。非常荣幸能被保华大大邀请来到这里跟大家分
 好了，进入正题。我今天分享的内容的题目是Fabric1.0 Chaincode介绍。除了介绍Chaincode程序编写、调试的基本方法之外，我还加入了一些有关Chaincode原理的内容，希望能够帮助大家更好地理解Chaincode，进而编写出更加高效的Chaincode程序以及更加快速地调试自己的Chaincode程序。
 
 ### Page 2
-![slide2](_images/p2.JPG)
+![slide2](_images/p2.jpg)
 
 我把内容分成了三个部分。内容包括：在fabric 中Chaincode是什么、如何编写Chaincode程序以及如何调试Chaincode程序。中间会穿插与Chaincode相关的重要概念介绍，以及Chaincode运行原理的介绍。
 
 ### Page 3
-![slide3](_images/p3.JPG)
+![slide3](_images/p3.jpg)
 
 首先是第一部分内容：在fabric中，Chaincode是什么呢？我觉得可以从以下几个方面来理解。
 
@@ -29,7 +29,7 @@ Hello，大家好。非常荣幸能被保华大大邀请来到这里跟大家分
 最后一点讲的是Chaincode与智能合约的关系。相信大家都听说智能合约的概念，简单来讲智能合约就是用程序实现合约的内容，并且这个程序是事件驱动、有状态的。智能合约是早就出现的概念，早于区块链提出。但是，区块链的出现为智能合约的实现提供了一个非常理想的环境。而在Fabric中，Chaincode就是开发者实现智能合约的方式。
 
 ### Page 4
-![slide4](_images/p4.JPG)
+![slide4](_images/p4.jpg)
 
 这一页是在fabric1.0中与Chaincode相关的几个比较重要的概念。
 
@@ -44,7 +44,7 @@ Orderer结点的工作就是consensus。Chaincode在endorser结点处执行之�
 Committer结点会将接收到的transaction写进block。
 
 ### Page 5
-![slide5](_images/p5.JPG)
+![slide5](_images/p5.jpg)
 
 这是fabric1.0对chaincode开发情况的支持。
 
@@ -53,7 +53,7 @@ Committer结点会将接收到的transaction写进block。
 关于SDK，如果使用vagrant方式搭建自己的fabric开发环境的话，在你的这条路径下，$GOPATH/src/github.com/hyperledger/fabric/core/chaincode/shim，就是chaincode开发的SDK。
 
 ### Page 6
-![slide6](_images/p6.JPG)
+![slide6](_images/p6.jpg)
 
 接下来是第二部分，如何编写Chaincode。
 
@@ -65,7 +65,7 @@ Committer结点会将接收到的transaction写进block。
 Invoke方法会在Invoke或Query chaincode时被调用。其中的代码可以查询或更新底层的数据，并且可被多次调用。
 
 ### Page 7
-![slide7](_images/p7.JPG)
+![slide7](_images/p7.jpg)
 
 这一页是使用go语言编写chaincode时的一个最基本的框架。
 
@@ -74,7 +74,7 @@ Invoke方法会在Invoke或Query chaincode时被调用。其中的代码可以�
 那么如何使用相关的API呢？两种方式，一种是通过参数stub shim.ChaincodeStubInterface，fabric在该接口中定义了丰富的API；此外，fabric也定义了一些全局的函数可被使用，比如这里的start()函数就是其中之一。
 
 ### Page 8
-![slide8](_images/p8.JPG)
+![slide8](_images/p8.jpg)
 
 那么，先看ChaincodeStub提供了哪些API。我将这些API分成了五大类。
 
@@ -83,7 +83,7 @@ Invoke方法会在Invoke或Query chaincode时被调用。其中的代码可以�
 第二大类与与参数相关。fabric1.0修改了chaincode接口的定义，需要开发者自己调用API获取传入的参数。注意，传入的参数第一个是函数名称，之后才是相应的函数输入参数。
 
 ### Page 9
-![slide9](_images/p9.JPG)
+![slide9](_images/p9.jpg)
 
 第三大类与Transaction有关，并且这一类都是读操作，读取transaction中各种信息，比如transaction id、timestamp等。
 
@@ -92,7 +92,7 @@ Invoke方法会在Invoke或Query chaincode时被调用。其中的代码可以�
 最后一类也只有一个API，SetEvent。Fabric允许开发者定义自己的event，然后这个event会在transaction写进block时触发，因此开发者就可以自己写相应的event handler程序做一些相关的工作。
 
 ### Page 10
-![slide10](_images/p10.JPG)
+![slide10](_images/p10.jpg)
 
 此外就是一些全局的或辅助的API。
 
@@ -103,7 +103,7 @@ Invoke方法会在Invoke或Query chaincode时被调用。其中的代码可以�
 关于API的详细说明可以打开这个链接看到。但是上面基于的是最新的fabric实现，所以跟刚才讲的会有很多不同。具体以你使用fabric版本为准。
 
 ### Page 11
-![slide11](_images/p11.JPG)
+![slide11](_images/p11.jpg)
 
 第三部分讲的是如何调试chaincode。
 
@@ -116,7 +116,7 @@ Invoke方法会在Invoke或Query chaincode时被调用。其中的代码可以�
 要说明的是，我目前看的fabric1.0的代码对于开发模式的支持还不完备，部署的时候回失败。
 
 ### Page 12
-![slide12](_images/p12.JPG)
+![slide12](_images/p12.jpg)
 
 但是因为开发模式的原理比较容易理解，这里我还是以开发模式为例介绍一下chaincode的运行原理。一般模式下，只需将chaincode的运行放在Docker容器中进行理解。
 
@@ -125,7 +125,7 @@ Invoke方法会在Invoke或Query chaincode时被调用。其中的代码可以�
 首先，chaincode会向指定的peer结点发送相关信息，比如chaincode name。然后，peer结点会做一些检查，主要是看该chaincode name是否已存在。如果不存在，则注册成功，为其创建相应的handler，然后返回相关信息。此后，chaincode就与peer结点建立起了联系，并且二者始终处于互相监听状态。
 
 ### Page 13
-![slide13](_images/p13.JPG)
+![slide13](_images/p13.jpg)
 
 这个图描述的是开发模式下chaincode Instantiate/invoke/query时的运行过程。
 
@@ -135,7 +135,7 @@ endorser接收到请求之后，如果相关chaincode存在，就会将请求发
 最后，chaincode执行完毕之后，会发送消息给endorser结点。如果执行成功，endorser结点就会封装执行结果并对其endorse，并把结果返回给CLI/APP端，然后进行ordering。这个图里没有给出ordering和committing的过程。
 
 ### Page 14
-![slide14](_images/p14.JPG)
+![slide14](_images/p14.jpg)
 
 这里给出一般模式下Chaincode的开发调试过程。以fabric chaincode_example02为例，完全本地，并且使用fabric默认配置。我的环境是使用vagrant方式搭建的。
 
@@ -146,14 +146,14 @@ endorser接收到请求之后，如果相关chaincode存在，就会将请求发
 然后，install chaincode程序，指定chaincode的名称以及version，它们将用于命名build出来的docker image。默认配置下，需要你的chaincode程序位于GOPATH/src路径下，并且这个命令会将GOPATH/src下的几乎所有文件都打包发送到指定的peer结点。
 
 ### Page 15
-![slide15](_images/p15.JPG)
+![slide15](_images/p15.jpg)
 
 接下来，通过Instantiate命令部署刚刚install的chaincode，同样需要给出chaincode名称和version。channel的名称是可选的，如果省略将默认使用testchainid这个channel，peer启东时会默认加入这个channel。
 
 之后，就可以通过invoke和query命令来调试自己的chaincode程序了。这里同样使用默认的channel testchainid。
 
 ### Page 16
-![slide16](_images/p16.JPG)
+![slide16](_images/p16.jpg)
 
 我的share到此结束，谢谢大家观看。
 
