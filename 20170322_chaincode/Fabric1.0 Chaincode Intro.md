@@ -157,3 +157,8 @@ endorser接收到请求之后，如果相关chaincode存在，就会将请求发
 
 我的share到此结束，谢谢大家观看。
 
+### 鼓励支持
+![10](images/10.png)
+![20](images/20.png)
+![50](images/50.png)
+![100](images/100.png)
