@@ -18,11 +18,11 @@ lccc是生命周期系统chaincode，用于管理用户chaincode的install、Ins
 
 答：fabric 1.0 中每个 peer 结点会维护四个 db，分别是 id store，存储 chainID；stateDB，存储 world state；versioned DB，存储 key 的版本变化；还有 blockdb，存储 block。
 
-**问：chaincode 的 world state 何时被写入？**
+**问：请问在chaincode运行原理这块，CLI或App是把请求直接发给endoser节点还是发给install了这个chaincode的peer节点，再由这个peer去与endoser交互呢？**
 
 答：实际上是发给了 endorser 结点，这个是在你的调用请求里指定的。
 
 **问：chaincode 的 world state 何时被写入？？**
 
-答：ordering之后，channel 上的所有 peer 都会执行 commiting 操作。
+答：ordering之后，channel 上的所有 peer 都会执行 commiting 操作,即写入stateDB操作。
 
