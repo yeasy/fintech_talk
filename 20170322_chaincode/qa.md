@@ -22,7 +22,7 @@ lccc是生命周期系统chaincode，用于管理用户chaincode的install、Ins
 
 答：实际上是发给了 endorser 结点，这个是在你的调用请求里指定的。
 
-**问：chaincode 的 world state 何时被写入？？**
+**问：chaincode 的 world state 何时被写入？**
 
 答：ordering之后，channel 上的所有 peer 都会执行 commiting 操作,即写入stateDB操作。
 
