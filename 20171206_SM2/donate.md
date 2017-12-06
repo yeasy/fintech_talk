@@ -7,7 +7,6 @@
 ![50](_images/50.png)  
 ![100](_images/100.png)
 
-
 ===== 关于 TechFirst 公众号 =====
 
 专注云计算、大数据、Fintech、人工智能、分布式相关领域的热门技术与前瞻方向。
@@ -16,4 +15,4 @@
 
 欢迎投稿！
 
-![wechat](_images/wechat.png)  
+![wechat](_images/wechat.png)
