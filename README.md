@@ -8,6 +8,8 @@
 
 分享内容会首发在 `TechFirst` 微信公众号，欢迎关注。
 
+本项目所有内容经各位讲师授权编辑使用，未经项目允许，禁止转载。
+
 在线阅读：[GitBook](https://www.gitbook.com/book/yeasy/blockchain_talks) 或 [GitHub](https://github.com/yeasy/blockchain_talks/blob/master/SUMMARY.md)。
 
 * pdf 版本 [下载](https://www.gitbook.com/download/pdf/book/yeasy/blockchain_talks)
@@ -21,11 +23,14 @@
 * QQ 群  IV：364824846（可加）
 
 ## 版本历史
-
+* 0.5.0: 2017-12-06
+  * 添加《超级账本 Fabric 国密算法支持》讲座。
+* 0.4.0: 2017-11-14
+  * 添加《从数据库角度看区块链》技术讲座。
 * 0.3.0: 2017-03-23
-  * 添加 Hyperledger Fabric chaincode 开发讲座。
+  * 添加《Hyperledger Fabric chaincode 开发》讲座。
 * 0.2.0: 2017-01-18
-  * 添加 chainsql 和密码学实践讲座。
+  * 添加《chainsql 和密码学实践》讲座。
 * 0.1.0: 2017-01-09
   * 添加项目结构。
 
