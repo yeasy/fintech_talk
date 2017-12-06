@@ -201,9 +201,8 @@ lccc是生命周期系统chaincode，用于管理用户chaincode的install、Ins
 
 答：ordering之后，channel 上的所有 peer 都会执行 commiting 操作,即写入stateDB操作。
 
-
-
 ## 鼓励支持
+
 如果你喜欢讲座分享的内容，欢迎通过如下微信二维码对专家进行支持和鼓励。
 
 ![10](_images/10.png)

@@ -21,3 +21,8 @@
     * [讲座内容](20171114_database/content.md)
     * [答疑解惑](20171114_database/qa.md)
     * [支持鼓励](20171114_database/donate.md)
+* [超级账本 Fabric 国密算法支持](20171206_SM2/README.md)
+    * [嘉宾介绍](20171206_SM2/speaker.md)
+    * [讲座内容](20171206_SM2/content.md)
+    * [答疑解惑](20171206_SM2/qa.md)
+    * [支持鼓励](20171206_SM2/donate.md)
