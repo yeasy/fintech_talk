@@ -137,7 +137,7 @@ sw 提供一套密码算法集合，可以考虑在中间加入国密算法接�
 
 对于 docker 相关的，需要更改 docker image 中 golang 层的支持。Fabric 中，对 golang 的支持，是放在fabric-baseimage 中的。baseimage 中，将特定版本的 go 环境打包到镜像中，提供底层的支持。
 
-baseimage 相关内容可以从 (官方仓库)[https://github.com/hyperledger/fabric-baseimage] 了解。
+baseimage 相关内容可以从 [官方仓库](https://github.com/hyperledger/fabric-baseimage) 了解。
 
 ### Page 14
 ![slide14](_images/p14.png)
