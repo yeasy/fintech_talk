@@ -1,6 +1,6 @@
 # Fintech 前沿技术讲座
 
-0.3.0
+0.5.0
 
 金融科技高级专家群，定期举办内部技术讲座分享活动。
 
@@ -8,14 +8,14 @@
 
 分享内容会首发在 `TechFirst` 微信公众号，欢迎关注。
 
-本项目所有内容经各位讲师授权编辑使用，未经项目允许，禁止转载。
+所有内容已获各位讲师原创授权，未经许可，禁止商业相关使用。转载请保留内容完整，并注明出处。
 
 在线阅读：[GitBook](https://www.gitbook.com/book/yeasy/blockchain_talks) 或 [GitHub](https://github.com/yeasy/blockchain_talks/blob/master/SUMMARY.md)。
 
 * pdf 版本 [下载](https://www.gitbook.com/download/pdf/book/yeasy/blockchain_talks)
 * epub 版本 [下载](https://www.gitbook.com/download/epub/book/yeasy/blockchain_talks)
 
-欢迎大家加入区块链技术讨论群：
+欢迎大家加入金融科技讨论群：
 
 * QQ 群   I：335626996（已满）
 * QQ 群  II：523889325（已满）
@@ -38,5 +38,5 @@
 
 如果你觉得分享内容有价值，欢迎通过讲座后二维码对演讲嘉宾进行鼓励，或者支持项目一杯 coffee~
 
-![coffee](_images/donate.jpeg)
+![coffee](_images/donate.png)
 

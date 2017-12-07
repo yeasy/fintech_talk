@@ -1,17 +1,18 @@
 # 超级账本 Fabric 国密算法支持
 
-区块链高级技术专家群内部讲座系列活动。
+金融科技高级专家群内部讲座系列活动。
 
-群内由区块链相关团队或组织的技术专家、学者和负责人等组成，目前仅限邀请加入。
+由国内外金融科技相关顶尖团队的技术专家、学者和负责人等组成，目前仅限邀请加入。
 
 分享内容会在 `TechFirst` 微信公众号进行首发，欢迎关注。
+
+![wechat](../_images/wechat.png)  
 
 ## 嘉宾介绍
 
 ![Dijun Liu](_images/ldj.png)
 
 刘地军，现就职于中国网安密码国家重点实验室，负责和参与多项国家重点项目的设计和研发。近期一直跟踪学习 Hyperledger 开源项目，对平台底层相关技术设计和定制具有丰富经验。
-
 
 ## 讲座内容
 
@@ -164,7 +165,7 @@ baseimage 相关内容可以从 (官方仓库)[https://github.com/hyperledger/fa
 ### Page 15
 ![slide15](_images/p15.png)
 
-那么国密支持还有一些问题，是需要注意的，系统中有些调用算法的部分，是 hard code 进去的，比如区块的 hash 部分。这部分可以通过在配置文件中增加项来解决，做到所用到算法全程配置。
+那么国密支持还有一些问题，是需要注意的，系统中有些调用算法的部分，是 hard code 进去的，比如区块的hash部分,区块的hash部分现在是写死成sha256的，但是值得注意的是，channel config部分里面是有配置区块hash算法的。可以通过配置HashingAlgorithm参数来指定使用的hash算法，可惜当前版本并没有开放配置功能。
 
 当然另一个问题是，是否系统中所有的算法都需要替换成国密标准，这个也是需要考虑的地方。
 
@@ -175,7 +176,7 @@ baseimage 相关内容可以从 (官方仓库)[https://github.com/hyperledger/fa
 
 - CA 可以考虑使用现有的国密 CA 系统，也可以考虑通过 Fabric-CA 来做搭建，fabric-ca 沿用 fabric 中的 BCCSP 套件，所以支持上难度也不大。
 
-- client-sdk现在有很多种版本，所以有一些工作量在里面。好在每个版本的密码服务套件都是插件化的，比如 node 里面可以实现一套支持国密的 CryptoSuite 来提供支持。
+- client-sdk现在有很多种版本，所以有一些工作量在里面。好在每个版本的密码服务套件都是插件化的，比如 node 里面可以实现一套支持国密的 CryptoSuite 来提供支持,当然node里面还是要对jsrsasign模块x509相关部分进行定制。
 
 ### Page 17
 ![slide16](_images/p17.png)
@@ -213,7 +214,7 @@ baseimage 相关内容可以从 (官方仓库)[https://github.com/hyperledger/fa
 
 发送关键词（如区块链、云计算、大数据、人工智能），获取热门点评与技术干货。
 
-欢迎投稿！
+如果你喜欢公众号内容，欢迎鼓励一杯 coffee~
 
-![wechat](_images/wechat.png)  
+![donate](../_images/donate.png)  
 

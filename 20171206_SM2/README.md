@@ -13,4 +13,4 @@
 
 欢迎投稿！
 
-![wechat](_images/wechat.png)
+![wechat](../_images/wechat.png)
