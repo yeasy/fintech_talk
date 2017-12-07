@@ -149,7 +149,7 @@ baseimage 相关内容可以从 (官方仓库)[https://github.com/hyperledger/fa
 ### Page 15
 ![slide15](_images/p15.png)
 
-那么国密支持还有一些问题，是需要注意的，系统中有些调用算法的部分，是 hard code 进去的，比如区块的 hash 部分。这部分可以通过在配置文件中增加项来解决，做到所用到算法全程配置。
+那么国密支持还有一些问题，是需要注意的，系统中有些调用算法的部分，是 hard code 进去的，比如区块的hash部分,区块的hash部分现在是写死成sha256的，但是值得注意的是，channel config部分里面是有配置区块hash算法的。可以通过配置HashingAlgorithm参数来指定使用的hash算法，可惜当前版本并没有开放配置功能。
 
 当然另一个问题是，是否系统中所有的算法都需要替换成国密标准，这个也是需要考虑的地方。
 
@@ -160,7 +160,7 @@ baseimage 相关内容可以从 (官方仓库)[https://github.com/hyperledger/fa
 
 - CA 可以考虑使用现有的国密 CA 系统，也可以考虑通过 Fabric-CA 来做搭建，fabric-ca 沿用 fabric 中的 BCCSP 套件，所以支持上难度也不大。
 
-- client-sdk现在有很多种版本，所以有一些工作量在里面。好在每个版本的密码服务套件都是插件化的，比如 node 里面可以实现一套支持国密的 CryptoSuite 来提供支持。
+- client-sdk现在有很多种版本，所以有一些工作量在里面。好在每个版本的密码服务套件都是插件化的，比如 node 里面可以实现一套支持国密的 CryptoSuite 来提供支持,当然node里面还是要对jsrsasign模块x509相关部分进行定制。
 
 ### Page 17
 ![slide16](_images/p17.png)
