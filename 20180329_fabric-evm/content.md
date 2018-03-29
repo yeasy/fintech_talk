@@ -81,15 +81,21 @@
 
 于是我们重新思考整个设计，意识到我们其实完全可以让Fabric对evm透明，遵循Ethereum的设计，所有的操作都作为tx被对待，忽略掉Fabric的lscc。合约的部署和调用都直接作为tx发送到evmscc，bytecode的存储和提取都通过实现Burrow的StateWriter、SatetUpdater等接口来实现。这使得设计变得简单，并且完全不用修改Fabric的代码。
 在这个设计中，一个合约的部署过程如下：
-调用evmscc，第一个参数是零地址，第二个参数是合约的contract bytecode
-evmscc收到这个tx后，将第一个参数作为callee address，通过零地址判断这是一个合约的部署请求。创建一个实例，并加载contract bytecode。
-通过caller address和seq number计算出合约地址（这里的caller address可以由`GetCreator`方法获取的调用者的pubkey计算得到）
-使用合约地址生成composite key，使用第二步中执行返回的runtime bytecode作为数据，写入evmscc的ledger，并将合约地址返回
+1. 调用evmscc，第一个参数是零地址，第二个参数是合约的contract bytecode
+2. evmscc收到这个tx后，将第一个参数作为callee address，通过零地址判断这是一个合约的部署请求。创建一个实例，并加载contract bytecode。
+3. 通过caller address和seq number计算出合约地址（这里的caller address可以由`GetCreator`方法获取的调用者的pubkey计算得到）
+4. 使用合约地址生成composite key，使用第二步中执行返回的runtime bytecode作为数据，写入evmscc的ledger，并将合约地址返回
+
 合约的调用过程如下：
-调用evmscc，第一个参数是合约地址，第二参数是调用的函数和参数组成的payload
-evmscc通过合约地址非零，推断这是一个合约调用请求，通过合约地址获取响应的bytecode
-创建一个evm实例并执行bytecode
-返回evm的执行结果
+1. 调用evmscc，第一个参数是合约地址，第二参数是调用的函数和参数组成的payload
+2. evmscc通过合约地址非零，推断这是一个合约调用请求，通过合约地址获取响应的bytecode
+3. 创建一个evm实例并执行bytecode
+4. 返回evm的执行结果
+
+在Ethereum中，web3.js主要与Ethereum节点暴露的JSON RPC接口进行交互。那么如果我们要让Fabric适配web3.js，则需要在Fabric中实现一套相应的接口。但是这存在两方面问题：
+* Fabric中，client需要与多个component进行交互，比如peer，ca，orderer，而web3.js只需要与一个组件进行交互即可，比如geth，两者之间的匹配比较困难
+* 另外，我们依然希望尽可能少的修改Fabric代码。
+所以，我们使用了另一个显而易见的方法，基于go-sdk实现了一个简单的proxy server，暴露一组JSON RPC接口，并将调用翻译成为Fabric的接口调用。
 
 ### Page 17
 ![slide17](_images/p017.png)
@@ -125,5 +131,7 @@ evmscc实现为Fabric的scc plugin，所以可以通过修改peer的启动配置
 
 ### Page 22
 ![slide22](_images/p022.png)
+
+最后打一个广告，最近IBM Cloud为trial用户重新上线了免费的Blockchain as a Service服务，欢迎大家联系我来获取相应的激活码。
 
 谢谢各位专家的耐心阅读，并请提出宝贵意见和建议！
