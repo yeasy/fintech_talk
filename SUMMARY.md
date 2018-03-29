@@ -26,3 +26,8 @@
     * [讲座内容](20171206_SM2/content.md)
     * [答疑解惑](20171206_SM2/qa.md)
     * [支持鼓励](20171206_SM2/donate.md)
+* [超级账本 Fabric 中添加对 EVM 智能合约的支持](20180329_fabric-evm/README.md)
+    * [嘉宾介绍](20180329_fabric-evm/speaker.md)
+    * [讲座内容](20180329_fabric-evm/content.md)
+    * [答疑解惑](20180329_fabric-evm/qa.md)
+    * [支持鼓励](20180329_fabric-evm/donate.md)
