@@ -31,3 +31,8 @@
     * [讲座内容](20180329_fabric-evm/content.md)
     * [答疑解惑](20180329_fabric-evm/qa.md)
     * [支持鼓励](20180329_fabric-evm/donate.md)
+* [深度解析点融区块链云服务](20180620_dianrong_baas/README.md)
+    * [嘉宾介绍](20180620_dianrong_baas/speaker.md)
+    * [讲座内容](20180620_dianrong_baas/content.md)
+    * [答疑解惑](20180620_dianrong_baas/qa.md)
+    * [支持鼓励](20180620_dianrong_baas/donate.md)
